@@ -1,0 +1,73 @@
+<div id="registration">
+    <form class="form-horizontal" role="form" id="form_registration" action="" method="post" name="inscription">
+        <div class="form-group has-error ">
+            <label class="sr-only">ERROR </label>
+
+            <div class="input-group" id="erreur-panel">
+                <input class="form-control disabled" placeholder="une erreur" type="text" name="erreur">
+                <span class="input-group-addon btn">X </span>
+            </div>
+
+        </div>
+        <fieldset>
+            <legend class=""></legend>
+            <div class="row col-md-offset-1">
+                <div class="form-group  col-md-5 ">
+                    <label for="nom">Nom : </label>
+                    <input id="nom" class="form-control" placeholder="nom" type="text" name="nom">
+                </div>
+                <div class="col-md-1"></div>
+                <div class="form-group col-md-5 ">
+                    <label for="prenom">Prenom : </label>
+                    <input id="prenom" class="form-control" placeholder="prenom" type="text" name="prenom">
+                </div>
+            </div>
+            <div class="row col-md-offset-1">
+                <div class="form-group col-md-8">
+                    <label for="email">Email : </label>
+                    <input id="email" class="form-control" placeholder="email valide" type="email" name="email">
+                </div>
+                <div class="col-md-1"></div>
+                <div class="form-group col-md-3 sexe">
+                    <span>sexe : </span><br>
+                    <label for="homme"><input id="homme" class="radio-inline" type="radio" name="sexe" value="H">&nbsp;Homme</label>
+                    <br>
+                    <label for="femme"><input id="femme" class="radio-inline" type="radio" name="sexe" value="F">&nbsp;Femme</label>
+
+                </div>
+            </div>
+            <div class="row col-md-offset-1">
+                <div class="form-group col-md-5">
+                    <label for="password">Mot de passe : </label>
+                    <input class="form-control" placeholder="mot de passe" type="password" name="password">
+                </div>
+                <div class="col-md-1"></div>
+                <div class="form-group col-md-5">
+                    <label for="password">confirmation : </label>
+                    <input class="form-control" placeholder="mot de passe" type="password" name="password">
+                </div>
+            </div>
+
+            <div class="row col-md-offset-1">
+                <div class="form-group col-md-5">
+                    <label for="password">Pays : </label>
+                    <input class="form-control" placeholder="nationalite" type="text" name="password">
+                </div>
+                <div class="col-md-1"></div>
+                <div class="form-group col-md-5">
+                    <label for="password">Ville : </label>
+                    <input id="password" class="form-control" placeholder="ou?" type="text" name="password">
+                </div>
+            </div>
+
+        </fieldset>
+        <!--
+            <div class="input-group">
+                <span class="input-group-addon">
+                    Inscription
+                </span> 
+                <input class="btn btn-primary btn-block" type="submit" size="15" name="envoyer" value="Connexion">
+            </div>
+        -->
+    </form>
+</div>

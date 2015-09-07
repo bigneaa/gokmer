@@ -1,0 +1,44 @@
+
+#form_bussness fieldset {
+    padding: 0 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.5) inset; /*#ffffcc*/
+    background-color: rgba(255, 255, 255, 0.3); /*#f5e79e */
+}
+
+#form_bussness legend {
+    text-align: center;
+}
+
+#produit {
+    margin-bottom: 50px;
+}
+
+#produit div.item {
+    word-wrap: break-word;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: rgba(199, 117, 0, 0.8);
+    box-shadow: 3px 3px 20px #d58512;
+    margin-bottom: 5px;
+}
+
+#produit div.vendeur {
+    background-color: rgb(187, 122, 23);
+    padding: 6px 12px;
+    margin-bottom: 7px;
+}
+
+#produit span {
+    color: white;
+    font-weight: normal;
+    border: none;
+    padding: 1px;
+    margin: 1px;
+    border-radius: 2px;
+
+}
+
+#bussness-nav .triage button {
+    padding: 5px 5px !important;
+}

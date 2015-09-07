@@ -1,0 +1,72 @@
+
+#facematch_form legend {
+    text-align: center;
+    font-weight: bold;
+}
+
+#facematch_form fieldset {
+    padding: 0 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.5) inset; /*#ffffcc*/
+    background-color: rgba(255, 255, 255, 0.3); /*#f5e79e */
+}
+
+.btn_photo {
+    height: 46px;
+    font-size: 20px;
+    color: wheat;
+}
+
+ul#facematch_navbar {
+    position: relative;
+    z-index: 10;
+}
+
+/*
+form.upload  div {
+    padding-bottom: 10px;
+}
+form label, form input{
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    border: 5px ;
+}
+fieldset{
+    background-color: yellowgreen;
+    height: inherit;
+    border-radius: 20px;
+    border: 1px inset;
+    box-shadow: 5px 5px 5px #7ccfff;
+
+}
+form input{
+    color: blue;
+    background-color: #ffed4f;
+}
+form label{
+    font: 20px bold;
+    color: antiquewhite;
+    margin-left: 10px;
+
+}
+form legend{
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+}
+.preview img{
+    height: 80px;
+    width: auto;
+}
+form input[type=submit]:hover{
+    cursor: pointer;
+}
+.inline{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+*/

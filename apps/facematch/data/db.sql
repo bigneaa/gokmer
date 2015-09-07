@@ -1,0 +1,27 @@
+-- base de donnee : FACEMATCH_IAI
+
+CREATE TABLE famille(
+	id INT(5) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    nom VARCHAR(20) NOT NULL,
+    mdpass VARCHAR (15),
+    logo VARCHAR(15) DEFAULT 'defaultlogo.jpg',
+)ENGINE=INNODB DEFAULT CHARSET=latin1;
+
+INSERT INTO famille (nom, mdpass) VALUES ("facematch_iai","123456" );
+
+CREATE TABLE personne(
+	id INT(5) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    nom VARCHAR(20) NOT NULL,
+    email VARCHAR (30), 
+    idFamille INT(5) NOT NULL DEFAULT 1,
+    FOREIGN KEY(idFamille) REFERENCES famille(id)  ON DELETE CASCADE   
+)ENGINE=INNODB DEFAULT CHARSET=latin1;
+
+CREATE TABLE image(
+	id INT(5) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    nom VARCHAR(20) NOT NULL DEFAULT 'default.jpg',
+    groupe VARCHAR (15), 
+    vote INT(11),
+    idPersonne INT(5) NOT NULL,
+    FOREIGN KEY(idPersonne) REFERENCES personne(id) ON DELETE CASCADE
+)ENGINE=INNODB DEFAULT CHARSET=latin1;
