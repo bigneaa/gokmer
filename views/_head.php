@@ -15,6 +15,10 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 <link rel="stylesheet" href="css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome-ie7.min.css">
+<![endif]-->
+
 <link rel="stylesheet" href="css/main.css">
 
 <title><?php echo $_SESSION['title']; ?></title>
