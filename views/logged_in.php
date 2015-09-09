@@ -6,29 +6,15 @@ $_SESSION['apps'] = "GO KMER";
 <!doctype html>
 <html class="no-js" lang="fr">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title><?php echo $_SESSION['title']; ?></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
-
-
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <?php
+    include_once("_head.php");
+    ?>
 </head>
 <body>
 <div class="container">
     <div id="top" class="row">
         <?php
         include_once("_header.php");
-
         ?>
     </div>
     <div id="middle" class="row">
