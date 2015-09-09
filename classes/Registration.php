@@ -36,8 +36,8 @@ class Registration
      */
     public function __construct()
     {
-        if(!isset($_SESSION)){
-        session_start();
+        if (!isset($_SESSION)) {
+            session_start();
         }
 
         // if we have such a POST request, call the registerNewUser() method
@@ -211,12 +211,16 @@ class Registration
         // the link to your register.php, please set this value in config/email_verification.php
         $mail->Body = EMAIL_VERIFICATION_CONTENT . ' ' . $link;
 
-        if (!$mail->Send()) {
-            $this->errors[] = MESSAGE_VERIFICATION_MAIL_NOT_SENT . $mail->ErrorInfo;
-            return false;
-        } else {
-            return true;
-        }
+        // todo : il faut decommenter le bloc si dessous lorsque tous sera fini car tu a force un return true
+        /*
+            if(!$mail->Send()) {
+                $this->errors[] = MESSAGE_VERIFICATION_MAIL_NOT_SENT . $mail->ErrorInfo;
+                return false;
+            } else {
+                return true;
+            }
+        */
+        return true; // todo : enlever ce return de forcement
     }
 
     /**
