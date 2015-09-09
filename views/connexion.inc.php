@@ -5,15 +5,14 @@
                 CONNEXION
             </legend>
             <div class="form-group">
-                <label for="login">Nom : <?php echo WORDING_USERNAME; ?></label>
-                <input id="user_name" class="form-control" placeholder="email" type="text" name="user_name">
+                <label for="login"><?php echo WORDING_USERNAME; ?></label>
+                <input id="user_name" class="form-control" placeholder="email" type="text" name="user_name" required>
             </div>
             <div class="form-group">
-                <label for="password">Password : <?php echo WORDING_PASSWORD; ?> </label>
+                <label for="password"><?php echo WORDING_PASSWORD; ?> </label>
                 <input id="user_password" class="form-control" placeholder="mot de passe" type="password"
                        name="user_password" autocomplete="off" required>
             </div>
-        </fieldset>
         <div class="input-group">
             <div class="input-group-addon">
                 <input type="checkbox" name="user_rememberme" id="user_rememberme" title="Remember Me" value="1">
@@ -25,9 +24,9 @@
         <hr style="margin:10px 0 5px 0">
         <small>Connexion rapide</small>
         <div id="social-icon" class="icon-bar">
-            <a href="#" class="btn" title="Connexion avec facebook"><img class="fb" alt="facebook"
+            <a href="#" class="btn" title="<?php echo WORDING_CONNECT_WHIT_FACEBOOK; ?>"><img class="fb" alt="facebook"
                                                                          src="images/facebook.png"> </a>
-            <a href="#" class="btn" title="Connexion avec g+"><img class="g+" alt="google-plus"
+            <a href="#" class="btn" title="<?php echo WORDING_CONNECT_WHIT_GOOGLE; ?>"><img class="g+" alt="google-plus"
                                                                    src="images/google-plus.png"> </a>
         </div>
 
