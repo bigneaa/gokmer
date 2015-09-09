@@ -15,7 +15,6 @@ $_SESSION['apps'] = "GO KMER";
     <div id="top" class="row">
         <?php
         include_once("_header.php");
-
         ?>
         <?php include('connexion.inc.php'); ?>
     </div>
