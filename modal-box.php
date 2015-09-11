@@ -10,8 +10,8 @@
                     Inscription
                 </h4>
             </div>
-            <div >
-                <?php include_once("register.php"); ?>
+            <div>
+                <?php include_once("views/inscription.inc.php"); ?>
             </div>
         </div>
         <! -- /.modal-content -->

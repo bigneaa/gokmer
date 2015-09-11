@@ -314,7 +314,7 @@ body {
 }
 
 #header_navbar_topfixed .nav > li > a {
-    padding: 0px;
+    padding: 0;
 }
 
 #header-middle div {
@@ -337,8 +337,8 @@ body {
     width: auto !important;
     max-width: 300px;
     position: fixed;
-    bottom: 0px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
     z-index: 999;
 }
 
@@ -349,7 +349,7 @@ body {
 #chat-menu {
     vertical-align: middle;
     background: url("../images/formbutton40x40.png") repeat-x;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 #chat-menu img {
@@ -385,8 +385,7 @@ body {
 }
 
 #form_registration .sexe {
-    background-color: #ffffcc;
-    width: auto;
+
 }
 
 .error-input {
@@ -433,3 +432,11 @@ body {
 }
 
 
+/* ==========================================================================
+   les styles de formulaires
+   ========================================================================== */
+#registration{
+    background-color: #ffdd99  !important; /*ou #ff9933 #ff9900*/
+    border-radius: 0 0 12px 12px;
+    box-shadow: 2px 2px 60px #ccffcc inset;
+}

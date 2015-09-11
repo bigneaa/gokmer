@@ -32,7 +32,7 @@ function salutation() {
 function loginForm_toogler() {
     $("#connexion-btn").click(function () {
         var margintop = $("#header_navbar_topfixed").height() + 2;
-         $("#login").css("top", margintop + "px");
+        $("#login").css("top", margintop + "px");
         $("#form_login").parent().toggleClass("show", "hide");
     });
 

@@ -9,7 +9,7 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
 <!-- Place favicon.ico in the root directory -->
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" >
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/bootstrap.min.css">

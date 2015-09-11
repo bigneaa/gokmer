@@ -19,9 +19,9 @@ $_SESSION['apps'] = "GO KMER";
     </div>
     <div id="middle" class="row">
         <!--[if lt IE 8]>
-    <p class="browserupgrade row">You are using an <strong>outdated</strong> browser. Please <a
-        href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+        <p class="browserupgrade row">You are using an <strong>outdated</strong> browser. Please <a
+            href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
         <?php
         // if you need the user's information, just put them into the $_SESSION variable and output them here
         echo WORDING_YOU_ARE_LOGGED_IN_AS . htmlspecialchars($_SESSION['user_name']) . "<br />";
@@ -48,7 +48,7 @@ $_SESSION['apps'] = "GO KMER";
     </div>
 
 </div>
-<?php include_once("modal-box.htm"); ?>
+<?php include_once("modal-box.php"); ?>
 
 <?php include_once '_foot.htm'; ?>
 

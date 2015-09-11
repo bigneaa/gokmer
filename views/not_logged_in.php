@@ -38,7 +38,7 @@ $_SESSION['apps'] = "GO KMER";
     </div>
 
 </div>
-<?php include_once("modal-box.htm"); ?>
+<?php include_once("modal-box.php"); ?>
 
 
 
